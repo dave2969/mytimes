@@ -89,26 +89,26 @@ h2 {
 }
 
 .story.img1 {
-  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-main.png");
+  background-image: url("../../resources/images/img-story-main.png");
   width: 630px;
   font-size: 40px;
   color:white;
 }
 
 .story.img2 {
-  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-2.png");
+  background-image: url("../../resources/images/img-story-2.png");
   color:white;
   text-align: center;
 }
 
 .story.img3 {
-  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-3.png"); 
+  background-image: url("../../resources/images/img-story-3.png"); 
   color:white;
   text-align: center;
 }
 
 .story.img4 {
-  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-1.png"); 
+  background-image: url("../../resources/images/img-story-1.png"); 
   color:white;
   text-align: center;
 }
