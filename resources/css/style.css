@@ -1,6 +1,6 @@
-div {
+/*div {
   border: 1px solid purple;
-}
+}*/
 
 .header {
   display: flex;
@@ -50,6 +50,10 @@ a {
   color: black;
 }
 
+h2 {
+  font-size: 25px;
+}
+
 .news {
   display: flex;
   padding-top: 116px;
@@ -58,16 +62,135 @@ a {
 
 .column {
   display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column.large {
   width: 630px;
+  flex-direction: column;
 }
 
 .column.medium {
   width: 300px;
+  flex-direction: column;
 }
 
 .column.small {
   width: 240px;
+}
+
+.bottomstories {
+  display: flex;
+  flex-direction: row;
+}
+
+.story.img1 {
+  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-main.png");
+  width: 630px;
+  font-size: 40px;
+  color:white;
+}
+
+.story.img2 {
+  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-2.png");
+  color:white;
+  text-align: center;
+}
+
+.story.img3 {
+  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-3.png"); 
+  color:white;
+  text-align: center;
+}
+
+.story.img4 {
+  background-image: url("file:///C:/Users/DavidRiley/OneDrive/Projects/mytimes/resources/images/img-story-1.png"); 
+  color:white;
+  text-align: center;
+}
+
+.story.left {
+  margin-right: 30px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  height: 300px;
+  width: 300px;
+  text-align: left;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  font-weight: normal;
+}
+
+.NB h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  display: block;
+  padding: 10px 20px;
+  font-weight: normal;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 325px;
+  width: 100%;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.info {
+  display: block;
+}
+
+.MT {
+  font-family: Georgia;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+.info nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.info nav span {
+  padding-right: 20px;
+}
+
+.copyright {
+  padding-top: 25px;
 }
